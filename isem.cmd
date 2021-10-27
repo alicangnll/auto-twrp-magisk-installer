@@ -9,7 +9,7 @@ set rec_date=05.10.2020
 set rec_img=recovery.img
 set rec_edit=alicangonullu.xyz Youtube Kanali
 set cmdoc=C:\root\
-set fs=/external_sd
+set fs=/sdcard/0
 
 TITLE %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
 color 4f
@@ -36,6 +36,8 @@ ECHO.Devam etmek icin herhangi bir tusa basin...
 pause>nul
 
 :MENU
+CLS
+%cmdoc%7z.exe e %cmdoc%recovery.zip -o%cmdoc% -r
 CLS
 ECHO.
 ECHO.         %device_name% - alicangonullu.xyz  TEK TUS TWRP YUKLEME ARACI
@@ -102,8 +104,9 @@ ECHO.                      ve araci yeniden baslatin)
 ECHO.***********************************************
 ECHO.
 timeout /t 2 /nobreak >NUL
+%cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
 %cmdoc%adb.exe wait-for-device >NUL 2>NUL
-
+timeout 30 > NUL
 CLS
 ECHO.
 ECHO.         %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
@@ -117,8 +120,6 @@ ECHO.***********************************************
 ECHO.
 ECHO.  (Bu arayuzde uzun sure kalirsaniz, lutfen araci yeniden baslatiniz)
 ECHO.
-%cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
-timeout 15 > NUL
 %cmdoc%adb.exe reboot bootloader >NUL 2>NUL
 timeout /t 3 /nobreak >NUL
 goto FLASHING
@@ -185,6 +186,9 @@ ECHO.           (Programdan cikmak icin herhangi bir tusa basin)
 ECHO.***********************************************
 ECHO.
 timeout /t 1 /nobreak >NUL
+
+%cmdoc%adb.exe reboot bootloader >NUL 2>NUL
+
 pause >NUL
 EXIT
 
