@@ -41,7 +41,7 @@ CLS
 ECHO.
 ECHO.          Recovery Cikartiliyor :
 ECHO.
-%cmdoc%7z.exe e %cmdoc%recovery.zip -o%cmdoc% -r -y
+%cmdoc%7z.exe e %cmdoc%recovery.zip -o%cmdoc% -r
 ECHO.
 ECHO.          Magisk Yukleniyor :
 ECHO.
