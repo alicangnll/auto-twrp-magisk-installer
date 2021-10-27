@@ -7,7 +7,7 @@ Tested on Xiaomi POCO X3 NFC
 <br>
 <b>Önemli 2 : push komutu bazen çalışmadığı için magis.zip dosyasını sdcard içerisine atmanızı öneririm</b>
 <br>
-<img src="https://alicangnll.github.io/auto-twrp-magisk-installer/pic/1.jpg" alt="auto-twrp-magisk-installer" width="500" height="600">
+<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/1.png" alt="auto-twrp-magisk-installer" width="500" height="600">
 <br>
-<img src="https://alicangnll.github.io/auto-twrp-magisk-installer/pic/2.jpg" alt="auto-twrp-magisk-installer" width="500" height="600">
+<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/2.png" alt="auto-twrp-magisk-installer" width="500" height="600">
 <br>
