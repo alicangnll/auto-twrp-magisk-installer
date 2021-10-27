@@ -1,3 +1,4 @@
+
 @ECHO OFF
 
 set device_name=POCO X3 NFC (surya)
@@ -9,7 +10,7 @@ set rec_date=05.10.2020
 set rec_img=recovery.img
 set rec_edit=alicangonullu.xyz Youtube Kanali
 set cmdoc=C:\root\
-set fs=/sdcard/0
+set fs=/sdcard
 
 TITLE %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
 color 4f
@@ -37,7 +38,17 @@ pause>nul
 
 :MENU
 CLS
+ECHO.
+ECHO.          Recovery Cikartiliyor :
+ECHO.
 %cmdoc%7z.exe e %cmdoc%recovery.zip -o%cmdoc% -r
+ECHO.
+ECHO.          Magisk Yukleniyor :
+ECHO.
+ECHO.          Permission Denied hatasi verirse dosyayi manuel sekilde kopyalayin
+ECHO.
+%cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
+timeout 35 > NUL
 CLS
 ECHO.
 ECHO.         %device_name% - alicangonullu.xyz  TEK TUS TWRP YUKLEME ARACI
@@ -104,9 +115,9 @@ ECHO.                      ve araci yeniden baslatin)
 ECHO.***********************************************
 ECHO.
 timeout /t 2 /nobreak >NUL
-%cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
+
 %cmdoc%adb.exe wait-for-device >NUL 2>NUL
-timeout 30 > NUL
+
 CLS
 ECHO.
 ECHO.         %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
@@ -204,7 +215,7 @@ ECHO.
 ECHO.
 ECHO.             Telefon yeniden baslayacak
 ECHO.             Bu asamada Magisk ile kalici yukleme yapmaniz gerekiyor.
-ECHO.             (TWRP-Salt Okunur-Yukle-magis.zip-Yeniden Baslat)
+ECHO.             (TWRP-Salt Okunur-Yukle-%fs%magis.zip-Yeniden Baslat)
 ECHO.
 ECHO.             Bu araci kullandiginiz icin tesekkur ederiz.
 ECHO.
