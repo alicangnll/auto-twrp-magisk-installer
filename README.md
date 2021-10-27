@@ -2,6 +2,7 @@
 Auto TWRP AND Magisk Installer - Turkish
 
 Tested on Xiaomi POCO X3 NFC
+<br>
 Önemli : Dosyaları C:/root/ klasörü içine kopyalayın ve ardında isem.cmd dosyasını başlatın.
 <br>
 <b>Önemli 2 : push komutu bazen çalışmadığı için magis.zip dosyasını sdcard içerisine atmanızı öneririm</b>
