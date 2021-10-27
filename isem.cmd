@@ -10,7 +10,7 @@ set rec_date=05.10.2020
 set rec_img=recovery.img
 set rec_edit=alicangonullu.xyz Youtube Kanali
 set cmdoc=C:\root\
-set fs=/local/traces
+set fs=/data/local/traces
 
 TITLE %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
 color 4f
@@ -38,15 +38,20 @@ pause>nul
 
 :MENU
 CLS
+ECHO.***********************************************
 ECHO.
 ECHO.          Recovery Cikartiliyor :
 ECHO.
+ECHO.***********************************************
 %cmdoc%7z.exe e %cmdoc%recovery.zip -o%cmdoc% -r
+CLS
+ECHO.***********************************************
 ECHO.
 ECHO.          Magisk Yukleniyor :
 ECHO.
-ECHO.          Permission Denied vb hatasi verirse dosyayi manuel sekilde kopyalayin
+ECHO. Permission Denied vb hatasi verirse dosyayi manuel sekilde sdcard icine kopyalayin
 ECHO.
+ECHO.***********************************************
 %cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
 timeout 35 > NUL
 CLS
