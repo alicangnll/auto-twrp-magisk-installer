@@ -11,3 +11,5 @@ Tested on Xiaomi POCO X3 NFC
 <br><br>
 <img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/2.png" alt="auto-twrp-magisk-installer" width="100%" height="600">
 <br><br>
+<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/3.png" alt="auto-twrp-magisk-installer" width="100%" height="600">
+<br><br>
