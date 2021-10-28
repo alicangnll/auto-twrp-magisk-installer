@@ -6,7 +6,7 @@ isem.cmd dosyasındaki <b> set fs=/storage/4921-17EF/Android</b> kısmını SDCA
 <br><br>
 konumu su sekilde bulabilirsiniz
 <br><br>
-<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/4.png" alt="auto-twrp-magisk-installer" width="100%" height="600">
+<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/4.jpg" alt="auto-twrp-magisk-installer" width="100%" height="600">
 <br><br>
 Önemli : Dosyaları C:/root/ klasörü içine kopyalayın ve ardında isem.cmd dosyasını başlatın.
 <br>
