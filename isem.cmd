@@ -54,7 +54,7 @@ ECHO. Permission Denied vb hatasi verirse dosyayi manuel sekilde sdcard icine ko
 ECHO.
 ECHO.***********************************************
 %cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
-copy "%cmdoc%magis.zip" %copymagis% 
+copy "%cmdoc%magis.zip" "%copymagis%" 
 timeout 35 > NUL
 CLS
 ECHO.
