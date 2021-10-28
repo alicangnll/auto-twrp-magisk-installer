@@ -1,7 +1,8 @@
 # auto-twrp-magisk-installer
 Auto TWRP AND Magisk Installer - Turkish
-
+<br><br>
 Tested on Xiaomi POCO X3 NFC
+<br><br>
 isem.cmd dosyasındaki <b> set fs=/storage/4921-17EF/Android</b> kısmını SDCARD konumuna göre düzenleyin
 <br><br>
 konumu su sekilde bulabilirsiniz
