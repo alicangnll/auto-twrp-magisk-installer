@@ -8,8 +8,8 @@ set rec_team=mauronofrio
 set rec_date=28.10.2021
 set rec_img=recovery.img
 set rec_edit=alicangonullu.xyz
-::Buraları duzenleyebilirsiniz
-set cmdoc=C:\root\
+set cmdoc="%~dp0/"
+::Burayı duzenlemelisiniz
 set fs=/storage/4921-17EF/Android
 ::Duzenlenecek yerler bitti
 TITLE %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
