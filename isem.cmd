@@ -1,4 +1,3 @@
-
 @ECHO OFF
 
 set device_name=POCO X3 NFC (surya)
