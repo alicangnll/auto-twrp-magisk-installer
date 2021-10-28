@@ -10,7 +10,8 @@ set rec_date=05.10.2020
 set rec_img=recovery.img
 set rec_edit=alicangonullu.xyz Youtube Kanali
 set cmdoc=C:\root\
-set fs=/data/local/traces
+set fs=/storage/emulated/0
+set copymagis=\\POCO X3 NFC\Samsung SD kartı
 
 TITLE %device_name% - alicangonullu.xyz TEK TUS TWRP YUKLEME ARACI
 color 4f
@@ -53,6 +54,7 @@ ECHO. Permission Denied vb hatasi verirse dosyayi manuel sekilde sdcard icine ko
 ECHO.
 ECHO.***********************************************
 %cmdoc%adb.exe push "%cmdoc%magis.zip" %fs%
+copy "%cmdoc%magis.zip" %copymagis% 
 timeout 35 > NUL
 CLS
 ECHO.
@@ -220,7 +222,7 @@ ECHO.
 ECHO.
 ECHO.             Telefon yeniden baslayacak
 ECHO.             Bu asamada Magisk ile kalici yukleme yapmaniz gerekiyor.
-ECHO.             (TWRP-Salt Okunur-Yukle-%fs%magis.zip-Yeniden Baslat)
+ECHO.             (TWRP-Salt Okunur-Yukle-%fs%/magis.zip-Yeniden Baslat)
 ECHO.
 ECHO.             Bu araci kullandiginiz icin tesekkur ederiz.
 ECHO.
