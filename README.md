@@ -2,7 +2,12 @@
 Auto TWRP AND Magisk Installer - Turkish
 
 Tested on Xiaomi POCO X3 NFC
-<br>
+isem.cmd dosyasındaki <b> set fs=/storage/4921-17EF/Android</b> kısmını SDCARD konumuna göre düzenleyin
+<br><br>
+konumu su sekilde bulabilirsiniz
+<br><br>
+<img src="https://raw.githubusercontent.com/alicangnll/auto-twrp-magisk-installer/main/pic/4.png" alt="auto-twrp-magisk-installer" width="100%" height="600">
+<br><br>
 Önemli : Dosyaları C:/root/ klasörü içine kopyalayın ve ardında isem.cmd dosyasını başlatın.
 <br>
 <b>Önemli 2 : push komutu bazen çalışmadığı için magis.zip dosyasını sdcard içerisine atmanızı öneririm</b>
