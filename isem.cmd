@@ -220,9 +220,12 @@ ECHO.
 ECHO.
 ECHO.             Telefon yeniden baslayacak
 ECHO.             Bu asamada Magisk ile kalici yukleme yapmaniz gerekiyor.
-ECHO.             (TWRP-Salt Okunur-Yukle-%fs%/magis.zip-Yeniden Baslat)
+ECHO.             (TWRP-Turkce-Salt Okunur-Yukle-%fs%/magis.zip-Yeniden Baslat)
 ECHO.
+ECHO.             Magisk Modüllerini Silmek İçin 
+ECHO.             Gelismis(Advanced)/Dosya yoneticisi/data/adb/modules/modul-adi ve klasoru sil
 ECHO.             Bu araci kullandiginiz icin tesekkur ederiz.
+ECHO.
 ECHO.
 ECHO.             (Programdan cikmak icin herhangi bir tusa basin)
 ECHO.***********************************************
@@ -231,5 +234,4 @@ ECHO.
 pause >NUL
 
 EXIT
-
 
